@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,700&display=swap");
+:root {
+  --main-color: #c49b63;
+  --background-color: #120f0f;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.main-button {
+  background: #c49b63;
+  border: 1px solid #c49b63;
+  color: #000;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.main-heading {
+  font-size: 40px;
+  font-weight: 700;
+  position: relative;
+  text-transform: uppercase;
+}
+/* blogs */
+.blogs {
+  font-size: 15px;
+  line-height: 1.8;
+  font-weight: 300;
+  background: url("../img/xbg_4.jpg.pagespeed.ic.jZaRfvTz2Z.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+
+.blog-heading {
+  padding-bottom: 50px;
+}
+.blog-heading h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 42px;
+}
+.blog-heading .blog-heading-des {
+  color: gray;
+  width: 48%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.blog-box .box {
+  padding: 15px;
+  width: 33.33%;
+}
+.blogs .blog-box .box .blog-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+
+.box .content-blog .blog-links a {
+  color: gray;
+  text-transform: capitalize;
+  padding-left: 5px;
+  transition: 0.5s;
+}
+.box .content-blog .blog-links a:hover {
+  opacity: 0.5;
+}
+.blog-container {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.box .content-blog h3 a {
+  color: #fff;
+  text-transform: capitalize;
+  transition: 0.5s;
+  font-family: "Poppins ", sans-serif;
+}
+.box .content-blog h3 a:hover {
+  color: var(--main-color);
+}
+.box .content-blog p {
+  color: gray;
+  width: 100%;
+}
+.blog-image {
+  overflow: hidden;
+  height: 270px;
+}
+.blog-image:hover img {
+  transform: scale(1.1);
+}
+/* map */
+.map {
+  background-color: #000;
+  position: relative;
+  padding-bottom: 50px;
+}
+.map-content {
+  display: flex;
+}
+.map-content .map-frame {
+  width: 50%;
+  position: relative;
+}
+.map-content .map-frame iframe {
+  width: 100%;
+  object-fit: cover;
+  height: 95%;
+}
+.map-btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: none rgb(255, 255, 255);
+  right: 3%;
+  top: 3%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.map-btn img {
+  width: 60%;
+}
+/* map form */
+.map-content .map-form {
+  width: 50%;
+}
+.map-content .map-form .map-heading {
+  color: #fff;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 100px;
+}
+.mg-r {
+  margin-left: 20px;
+}
+/* footer */
+footer {
+  font-family: "Josefin Sans", sans-serif;
+}
+.footer {
+  background-color: var(--background-color);
+  padding: 120px 0;
+}
+.footer-content {
+  display: flex;
+  flex-direction: row;
+}
+.footer-content .heading-title .main-heading {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 40px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.footer-content .about-content {
+  max-width: 25%;
+}
+.footer-content .about-content .about-des {
+  color: rgba(255, 255, 255, 0.7);
+  width: 85%;
+  margin-bottom: 75px;
+  font-family: "Poppins", sans-serif;
+}
+.about-content .footer-social .social-list {
+  list-style: none;
+}
+.footer-social .social-list li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+}
+.footer-social .social-list li a {
+  color: #fff;
+  font-size: 26px;
+}
+.footer-social .social-list li a .twitter {
+  top: 0;
+  left: 0;
+  transform: translate(43%, 14%);
+  position: absolute;
+}
+.footer-social .social-list li a .facebook {
+  top: 0;
+  left: 0;
+  transform: translate(89%, 14%);
+  position: absolute;
+}
+.footer-social .social-list li a .instagram {
+  top: 0;
+  left: 0;
+  transform: translate(58%, 14%);
+  position: absolute;
+}
+.footer-social .social-list li:hover span {
+  color: var(--main-color);
+}
+.mg-l-r {
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.footer-content .footer-blog {
+  max-width: 33.33%;
+}
+.footer-blog .row {
+  display: flex;
+  margin-bottom: 1.5rem;
+}
+.footer-blog .row .footer-blog-img a div {
+  display: block;
+  width: 80px !important;
+  height: 80px !important;
+}
+.footer-blog .row .footer-blog-img a div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.footer-blog-des .heading-title .blog-footer-heading {
+  font-size: 16px;
+  width: 100%;
+}
+.footer-blog-des .heading-title .blog-footer-heading a {
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Josefin Sans", sans-serif;
+  transition: 0.5s;
+}
+.footer-blog-des .heading-title .blog-footer-heading a:hover {
+  color: var(--main-color);
+}
+.blog-info {
+  display: flex;
+  flex-direction: row;
+}
+.blog-info .calender a,
+.blog-info .admin a,
+.blog-info .comment a {
+  color: gray;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.mg-l {
+  margin-left: 12px;
+}
+.mb {
+  margin-bottom: 15px;
+}
+.footer-services .services-list {
+  list-style: none;
+}
+.footer-services .services-list li {
+  padding-bottom: 25px;
+}
+.services-list .footer-food {
+  width: 100%;
+}
+.footer-services .services-list li a {
+  color: rgba(255, 255, 255, 0.7);
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+}
+.footer-services .services-list li a:hover {
+  color: #fff;
+}
+
+.que-content-des .que-list {
+  list-style: none;
+}
+.location {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+.mg-l-que {
+  margin-left: 35px;
+}
+.location .icon-location {
+  width: 40px;
+  font-size: 18px;
+  padding-top: 2px;
+  color: #fff;
+}
+.location .mg-l-que p {
+  color: rgba(255, 255, 255, 0.7);
+  width: 95%;
+  font-family: "Poppins", sans-serif;
+}
+.que-mg-l {
+  margin-left: 26px;
+}
+.phone li a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.phone {
+  margin-bottom: 40px;
+}
+.email li a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.developer-credit {
+  padding-top: 100px;
+}
+.developer-credit p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Poppins", sans-serif;
+}
+.developer-credit p span {
+  color: red;
+}
